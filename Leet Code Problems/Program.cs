@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * This is just my single project to house all my Leetcode.com work. - Daniel Gail
+ */
+
+using System;
 
 namespace Leet_Code_Problems
 {
@@ -18,7 +22,7 @@ namespace Leet_Code_Problems
                 {
                     try
                     {
-                        if (Int32.Parse(choice) == 1)
+                        if (Int32.Parse(choice) >= 1 && Int32.Parse(choice) <= 2)
                         {
                             LCLauncher(Int32.Parse(choice));
                         }
@@ -54,7 +58,11 @@ namespace Leet_Code_Problems
             {
                 case 1:
                     Console.Clear();
-                    Two_Sum_1.LC1();
+                    Two_Sum.LC1();
+                    break;
+                case 2:
+                    Console.Clear();
+                    Reverse_Integer.LC7();
                     break;
                 default:
                     Console.WriteLine("Invalid entry.");

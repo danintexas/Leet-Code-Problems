@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LC1\Two_Sum_1.cs" />
+    <Compile Include="LC1\Two_Sum.cs" />
+    <Compile Include="LC7\Reverse_Integer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
