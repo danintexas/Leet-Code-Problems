@@ -1,0 +1,6 @@
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\obj\Debug\Leet Code Problems.csprojAssemblyReference.cache
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\bin\Debug\Leet Code Problems.exe.config
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\bin\Debug\Leet Code Problems.exe
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\bin\Debug\Leet Code Problems.pdb
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\obj\Debug\Leet Code Problems.exe
+Z:\Daniel\Code\Leet Code Problems\Leet Code Problems\obj\Debug\Leet Code Problems.pdb
