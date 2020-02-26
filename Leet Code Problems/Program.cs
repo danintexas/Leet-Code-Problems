@@ -57,12 +57,22 @@ namespace Leet_Code_Problems
             switch (choice)
             {
                 case 1:
+                    Console.WriteLine("Starting up the Leet Code 1 test: Two Sums");
+                    Console.ReadLine();
                     Console.Clear();
                     Two_Sum.LC1();
                     break;
                 case 7:
+                    Console.WriteLine("Starting up the Leet Code 7 test: Reverse Integer");
+                    Console.ReadLine();
                     Console.Clear();
                     Reverse_Integer.LC7();
+                    break;
+                case 9:
+                    Console.WriteLine("Starting up the Leet Code 9 test: Palindrome Number");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Palindrome_Number.LC9();
                     break;
                 default:
                     Console.WriteLine("Invalid entry.");

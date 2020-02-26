@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="LC1\Two_Sum.cs" />
     <Compile Include="LC7\Reverse_Integer.cs" />
+    <Compile Include="LC9\Palindrome_Number.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
