@@ -22,7 +22,7 @@ namespace Leet_Code_Problems
                 {
                     try
                     {
-                        if (Int32.Parse(choice) >= 1 && Int32.Parse(choice) <= 2)
+                        if (Int32.Parse(choice) >= 1)
                         {
                             LCLauncher(Int32.Parse(choice));
                         }
@@ -60,7 +60,7 @@ namespace Leet_Code_Problems
                     Console.Clear();
                     Two_Sum.LC1();
                     break;
-                case 2:
+                case 7:
                     Console.Clear();
                     Reverse_Integer.LC7();
                     break;

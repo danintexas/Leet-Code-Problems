@@ -27,7 +27,49 @@ namespace Leet_Code_Problems
     {
         public static void LC7()
         {
+            Console.WriteLine("Please enter in a numeric value to reverse: ");
+            int value = Int32.Parse(Console.ReadLine().ToString());
+            Console.WriteLine(Environment.NewLine + "Reversed Value: " + Reverse(value));
+            Console.ReadLine();
+        }
 
+        public static int Reverse(int x)
+        {
+            int returnedValue;
+            bool isNegative = false;
+
+            if (x < 0)
+            {
+                isNegative = true;
+                x = -x;
+            }
+
+            char[] reversedValue = x.ToString().ToCharArray();
+            Array.Reverse(reversedValue);
+
+            string returnedValueString = "";
+
+            foreach (char character in reversedValue)
+            {
+                returnedValueString += character;
+            }
+
+            try
+            {
+                returnedValue = Int32.Parse(returnedValueString);
+            }
+            catch
+            {
+                return 0;
+            }
+            
+
+            if (isNegative)
+            {
+                returnedValue = -returnedValue;
+            }
+
+            return returnedValue;
         }
     }
 }
