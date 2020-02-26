@@ -6,36 +6,61 @@ namespace Leet_Code_Problems
     {
         static void Main()
         {
-            // Variables Needed
-            int[] twoSumNums = { 1, 2, 5, 6, 7 };
-            int twoSumTarget = 6;
-            int[] response = Two_Sum_1.TwoSum(twoSumNums, twoSumTarget);
-            string sentArray = "";
-            string responseArray = "[ " + response[0].ToString() + "," + response[1].ToString() + " ]";
+            string choice = "";
 
-            // Build out the arrays into Strings
-            for(int x = 0; x < twoSumNums.Length; x++)
+            while (choice != "q")
             {
-                if (x == 0)
-                {
-                    sentArray = "[ " + twoSumNums[x].ToString() + ",";
-                }
+                Console.Clear();
+                Console.WriteLine("Please enter in the numeric code of the Leet Code program to execute or 'q' to terminate: ");
+                choice = Console.ReadLine();
 
-                else if (x == twoSumNums.Length - 1)
+                if (choice != "q")
                 {
-                    sentArray = sentArray + twoSumNums[x].ToString() + " ]";
+                    try
+                    {
+                        if (Int32.Parse(choice) == 1)
+                        {
+                            LCLauncher(Int32.Parse(choice));
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("Not a valid test number!");
+                            Console.ReadLine();
+                            Console.Clear();
+                        }
+                    }
+
+                    catch
+                    {
+                        Console.WriteLine("Please enter in a valid numeric value!");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
                 }
 
                 else
                 {
-                    sentArray = sentArray + twoSumNums[x].ToString() + ",";
+                    Console.WriteLine(Environment.NewLine + Environment.NewLine + "Thank you for launching this!");
+                    Console.ReadLine();
                 }
             }
 
-            Console.WriteLine("Leet Code 1: Two Sum" + Environment.NewLine + "     Given an array of integers, return indices of the two numbers such" + 
-                " that they add up to a specific target." + Environment.NewLine + Environment.NewLine + "Values sent to method: " + sentArray + Environment.NewLine + 
-                "Target Value: " + twoSumTarget + Environment.NewLine + "Response from method: " + responseArray);
-            Console.ReadLine();
+                     
+        }
+        public static void LCLauncher(int choice)
+        {
+            switch (choice)
+            {
+                case 1:
+                    Console.Clear();
+                    Two_Sum_1.LC1();
+                    break;
+                default:
+                    Console.WriteLine("Invalid entry.");
+                    Console.ReadLine();
+                    break;
+            }
         }
     }
 }
