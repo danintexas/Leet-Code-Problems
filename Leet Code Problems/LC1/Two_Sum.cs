@@ -45,6 +45,7 @@ namespace Leet_Code_Problems
             Console.WriteLine("Leet Code 1: Two Sum" + Environment.NewLine + "     Given an array of integers, return indices of the two numbers such" +
                 " that they add up to a specific target." + Environment.NewLine + Environment.NewLine + "Values sent to method: " + sentArray + Environment.NewLine +
                 "Target Value: " + twoSumTarget + Environment.NewLine + "Response from method: " + responseArray);
+            Console.Write(Environment.NewLine + "Press <Enter> to return to main screen.");
             Console.ReadLine();
         }
 

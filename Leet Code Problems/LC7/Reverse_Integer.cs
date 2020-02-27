@@ -27,9 +27,11 @@ namespace Leet_Code_Problems
     {
         public static void LC7()
         {
-            Console.WriteLine("Please enter in a numeric value to reverse: ");
+            Console.WriteLine("Leet Code 7: Reverse Integer => Given a 32-bit signed integer, reverse digits of an integer." + Environment.NewLine);
+            Console.Write("Please enter in a numeric value to reverse: ");
             int value = Int32.Parse(Console.ReadLine().ToString());
             Console.WriteLine(Environment.NewLine + "Reversed Value: " + Reverse(value));
+            Console.Write(Environment.NewLine + "Press <Enter> to return to main screen.");
             Console.ReadLine();
         }
 
