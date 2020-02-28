@@ -18,9 +18,9 @@ namespace Leet_Code_Problems
                 Console.WriteLine("Leet Code solution App - By Daniel Gail" + Environment.NewLine);
                 Console.WriteLine("1: Two Sum => Given an array of integers, return indices of the two numbers such that they add up to a specific target.");
                 Console.WriteLine("7: Reverse Integer => Given a 32-bit signed integer, reverse digits of an integer.");
-                Console.WriteLine("9: Determine whether an integer is a palindrome." + Environment.NewLine);
-                Console.WriteLine("13: Convert Roman numeral to an Integer." + Environment.NewLine);
-                Console.Write("Please enter your selected Leet Code Test or 'q' to quit: ");
+                Console.WriteLine("9: Determine whether an integer is a palindrome.");
+                Console.WriteLine("13: Convert Roman numeral to an Integer.");
+                Console.Write(Environment.NewLine + "Please enter your selected Leet Code Test or 'q' to quit: ");
                 choice = Console.ReadLine();
 
                 if (choice != "q")

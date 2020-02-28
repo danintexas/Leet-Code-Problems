@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LC1\Two_Sum.cs" />
-    <Compile Include="LC7\Reverse_Integer.cs" />
-    <Compile Include="LC9\Palindrome_Number.cs" />
+    <Compile Include="Easy\LC01\Two_Sum.cs" />
+    <Compile Include="Easy\LC07\Reverse_Integer.cs" />
+    <Compile Include="Easy\LC09\Palindrome_Number.cs" />
+    <Compile Include="Easy\LC13\Roman_to_Integer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
