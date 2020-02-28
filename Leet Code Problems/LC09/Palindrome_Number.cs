@@ -23,7 +23,7 @@ namespace Leet_Code_Problems
 {
     class Palindrome_Number
     {
-        public static void LC9()
+        public static void LC13()
         {
             Console.WriteLine("Leet Code 9: Determine whether an integer is a palindrome." + Environment.NewLine);
             Console.Write("Please enter in a numeric value to test: ");
