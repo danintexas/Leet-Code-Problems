@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Leet_Code_Problems
 {
-    class Launcher : Program
+    class Launcher
     {        public static void LCLauncher(int choice)
         {
             switch (choice)
@@ -34,6 +30,12 @@ namespace Leet_Code_Problems
                     Console.ReadLine();
                     Console.Clear();
                     Palindrome_Number.LC13();
+                    break;
+                case 14:
+                    Console.WriteLine("Starting up the Leet Code 14 test: Longest Common Prefix");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Longest_Common_Prefix.LC14();
                     break;
                 default:
                     Console.WriteLine("Invalid entry.");
