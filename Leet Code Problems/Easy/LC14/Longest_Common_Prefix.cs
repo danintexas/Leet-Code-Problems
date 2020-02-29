@@ -18,7 +18,7 @@
 
 using System;
 
-namespace Leet_Code_Problems.Easy.LC14
+namespace Leet_Code_Problems
 {
     class Longest_Common_Prefix
     {
