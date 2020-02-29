@@ -53,7 +53,7 @@ namespace Leet_Code_Problems
 
                 else
                 {
-                    Console.WriteLine(Environment.NewLine + Environment.NewLine + "Thank you for launching this!");
+                    Console.WriteLine(Environment.NewLine + "Thank you for launching this!");
                     Console.ReadLine();
                 }
             }                     
