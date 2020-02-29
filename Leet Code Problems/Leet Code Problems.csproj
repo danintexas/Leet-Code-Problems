@@ -47,6 +47,8 @@
     <Compile Include="Easy\LC07\Reverse_Integer.cs" />
     <Compile Include="Easy\LC09\Palindrome_Number.cs" />
     <Compile Include="Easy\LC13\Roman_to_Integer.cs" />
+    <Compile Include="Easy\LC14\Longest_Common_Prefix.cs" />
+    <Compile Include="Launcher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
