@@ -37,6 +37,12 @@ namespace Leet_Code_Problems
                     Console.Clear();
                     Longest_Common_Prefix.LC14();
                     break;
+                case 901:
+                    Console.WriteLine("Starting up Interview Question: Maximum repeating element");
+                    Console.ReadLine();
+                    Console.Clear();
+                    InterviewQuestions.QuestionOne();
+                    break;
                 default:
                     Console.WriteLine("Invalid entry.");
                     Console.ReadLine();

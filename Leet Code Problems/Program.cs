@@ -19,10 +19,12 @@ namespace Leet_Code_Problems
                 Console.WriteLine("Easy Leet Code Problems" + Environment.NewLine);
                 Console.WriteLine(" 1: Two Sum:               Given an array of integers, return indices of the two numbers such that they add"+ 
                     Environment.NewLine + "                                up to a specific target.");
-                Console.WriteLine(" 7: Reverse Integer:       Given a 32-bit signed integer, reverse digits of an integer.");
-                Console.WriteLine(" 9: Palindrome Number:     Determine whether an integer is a palindrome.");
-                Console.WriteLine("13: Roman to Integer:      Convert Roman numeral to an Integer.");
-                Console.WriteLine("14: Longest Common Prefix: Longest common prefix string amongst an array of strings.");
+                Console.WriteLine("  7: Reverse Integer:       Given a 32-bit signed integer, reverse digits of an integer.");
+                Console.WriteLine("  9: Palindrome Number:     Determine whether an integer is a palindrome.");
+                Console.WriteLine(" 13: Roman to Integer:      Convert Roman numeral to an Integer.");
+                Console.WriteLine(" 14: Longest Common Prefix: Longest common prefix string amongst an array of strings.");
+                Console.WriteLine(Environment.NewLine + "Missed Interview Problems or Ones I wanted to Explore" + Environment.NewLine);
+                Console.WriteLine("901: Interview Question:    Returns maximum repeating element.");
                 Console.Write(Environment.NewLine + "Please enter your selected Leet Code Test or 'q' to quit: ");
                 choice = Console.ReadLine();
 
